@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SidePanel test",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["sidePanel","tabs"],
+  "action": {
+    "default_title": "Click to open panel"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  }
+}
